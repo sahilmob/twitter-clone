@@ -70,10 +70,10 @@
 
 .root .main .left > .Icon {
   position: absolute;
-  font-size: 80em;
+  font-size: 85vw;
   z-index: 0;
-  right: -580px;
-  top: -720px;
+  right: -595px;
+  top: -745px;
   opacity: 0.1;
 }
 
