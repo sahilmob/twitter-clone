@@ -114,6 +114,11 @@ body {
   line-height: 20px;
 }
 
+.root .main .right form.header button:hover {
+  background: rgba(29, 161, 242, 0.1);
+  color: #1da1f2;
+}
+
 .root .main .right form.header .password .link {
   color: #aab8c2;
   font-size: 14px;
