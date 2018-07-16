@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "edgeicons";
+  src: url("../../font/edge-icons-Regular.eot");
+  src: url("../../font/edge-icons-Regular.eot?#iefix") format("embedded-opentype"), url("../../font/edge-icons-Regular.woff") format("woff"), url("../../font/edge-icons-Regular.ttf") format("truetype");
+}
+
+.Icon {
+  background: transparent;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.Icon:after,
+.Icon:before {
+  display: block;
+  font-family: "edgeicons";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.geo-query-location .Icon--search {
+  color: #66757f;
+  left: 13px;
+  position: absolute;
+  top: 10px;
+}
+
+.Icon--search:before {
+  content: "\f058";
+}
+
+.Icon--people:before {
+  content: "\f178";
+}
+
+.Icon--reply:before {
+  content: "\f151";
+}
+
+.Icon--bird:before {
+  content: "\f179";
+}
+/*# sourceMappingURL=style.css.map */
