@@ -1,6 +1,11 @@
 $mainColor: #1da1f2
 $linkColor: #aab8c2
+$darkTxtColor: #14171a
 
+
+body
+    font-family: "Segoe UI",Arial,sans-serif
+    
 @font-face 
     font-family: "edgeicons"
     src: url("../../font/edge-icons-Regular.eot")
@@ -86,6 +91,47 @@ $linkColor: #aab8c2
                         color: $linkColor
                         font-size: 14px
                         line-height: 20px
+            .content
+                max-width: 350px
+                margin-top: 80px
+                > .top
+                    .Icon--bird
+                        color: $mainColor
+                        font-size: 45px
+                    .title
+                        font-size: 27px
+                        line-height: 32px
+                        font-weight: bold
+                        color: $darkTxtColor
+                > .bottom
+                    .title
+                        margin-top: 48px
+                        margin-bottom: 16px
+                        font-size: 18px
+                        line-height: 24px
+                        font-weight: bold
+                        color: $darkTxtColor
+                    a
+                        width: 100%
+                        margin-bottom: 16px
+                        border-radius: 100px
+                        height: 32px
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        font-weight: bold
+                        transition: none
+                    .btn-primary
+                        background: $mainColor
+                        color: #fff
+                        border: none
+                        &:hover
+                            background: #0C6FBA
+                    .btn-outline-primary
+                        color: $mainColor
+                        &:hover
+                            background: rgba(29,161,242, 0.1)
+
 
 .left
     background: $mainColor

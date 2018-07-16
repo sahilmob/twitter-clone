@@ -1,3 +1,7 @@
+body {
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
 @font-face {
   font-family: "edgeicons";
   src: url("../../font/edge-icons-Regular.eot");
@@ -108,6 +112,69 @@
   color: #aab8c2;
   font-size: 14px;
   line-height: 20px;
+}
+
+.root .main .right .content {
+  max-width: 350px;
+  margin-top: 80px;
+}
+
+.root .main .right .content > .top .Icon--bird {
+  color: #1da1f2;
+  font-size: 45px;
+}
+
+.root .main .right .content > .top .title {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+.root .main .right .content > .bottom .title {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+.root .main .right .content > .bottom a {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 100px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.root .main .right .content > .bottom .btn-primary {
+  background: #1da1f2;
+  color: #fff;
+  border: none;
+}
+
+.root .main .right .content > .bottom .btn-primary:hover {
+  background: #0C6FBA;
+}
+
+.root .main .right .content > .bottom .btn-outline-primary {
+  color: #1da1f2;
+}
+
+.root .main .right .content > .bottom .btn-outline-primary:hover {
+  background: rgba(29, 161, 242, 0.1);
 }
 
 .left {
