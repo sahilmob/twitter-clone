@@ -11,32 +11,32 @@
 
 <body>
     <div class="container-fluid root">
-        <div class="row main">
-            <div class="col-xl-6 left">
+        <div class="row main border-bottom">
+            <div class="col-xl-6 left position-relative d-flex justify-content-center align-items-center">
                 <div class="content">
                     <ul class="features">
-                        <li class="feature">
+                        <li class="feature d-flex">
                             <span class="Icon Icon--search"></span> Follow your interests.
                         </li>
-                        <li class="feature">
+                        <li class="feature d-flex">
                             <span class="Icon Icon--people"></span> Hear what people are talking about.
                         </li>
-                        <li class="feature">
+                        <li class="feature d-flex">
                             <span class="Icon Icon--reply"></span> Join the conversation.
                         </li>
                     </ul>
                 </div>
-                <span class="Icon Icon--bird"></span>
+                <span class="Icon Icon--bird position-absolute"></span>
             </div>
-            <div class="col-xl-6 right">
-                <div class="row header">
-                    <input type="text" name="" placeholder="Phone, email, or username">
-                    <div class="password">
-                        <input type="password" placeholder="Password">
+            <div class="col-xl-6 right d-flex flex-column align-items-center">
+                <form class="row header d-flex justify-content-between">
+                    <input type="text" class="form-control" placeholder="Phone, email, or username">
+                    <div class="password d-flex flex-column">
+                        <input type="password" class="form-control" placeholder="Password">
                         <a href="#" class="link">Forget password?</a>
                     </div>
                     <button class="btn btn-outline-primary">Log in</button>
-                </div>
+                </form>
                 <div class="row">
                     <div class="content">
                         <div class="top">
