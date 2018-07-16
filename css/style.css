@@ -45,4 +45,73 @@
 .Icon--bird:before {
   content: "\f179";
 }
+
+.root {
+  height: 94vh;
+}
+
+.root .main {
+  height: 100%;
+}
+
+.root .main .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.root .main .left > .Icon {
+  position: absolute;
+  font-size: 80em;
+  z-index: 0;
+  right: -580px;
+  top: -720px;
+  opacity: 0.1;
+}
+
+.root .main .left .content {
+  z-index: 1;
+}
+
+.root .main .left .content .features .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 48px 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.root .main .left .content .features .feature .Icon {
+  font-size: 35px;
+  margin-right: 16px;
+}
+
+.left {
+  background: #1da1f2;
+}
+
+.left .content .features {
+  list-style: none;
+  color: #fff;
+}
+
+.footer .footer-menu {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer .footer-menu .menu-item {
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */

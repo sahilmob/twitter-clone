@@ -1,3 +1,5 @@
+$mainColor: #1da1f2;
+
 @font-face 
     font-family: "edgeicons";
     src: url("../../font/edge-icons-Regular.eot")
@@ -37,6 +39,51 @@
 
 .Icon--bird:before 
     content: "\f179"
+
+.root
+    height: 94vh
+    .main
+        height: 100%
+        .left
+            display: flex
+            justify-content: center
+            align-items: center
+            position: relative
+            overflow: hidden
+            > .Icon
+                position: absolute
+                font-size: 80em
+                z-index: 0
+                right: -580px
+                top: -720px
+                opacity: 0.1
+            .content
+                z-index: 1
+                .features
+                    .feature
+                        display: flex
+                        margin: 48px 0
+                        font-weight: bold
+                        font-size: 18px
+                        line-height: 24px
+                        .Icon
+                            font-size: 35px
+                            margin-right: 16px
+            
+
+.left
+    background: $mainColor
+
+.left .content .features
+    list-style: none
+    color: #fff
+.footer
+    .footer-menu
+        list-style: none
+        padding-left: 0
+        margin-bottom: 0
+        .menu-item
+            display: inline-block
 
 
 
