@@ -5,7 +5,7 @@ $darkTxtColor: #14171a
 
 body
     font-family: "Segoe UI",Arial,sans-serif
-    
+
 @font-face 
     font-family: "edgeicons"
     src: url("../../font/edge-icons-Regular.eot")
@@ -51,6 +51,7 @@ body
     .main
         height: 100%
         .left
+            background: $mainColor
             overflow: hidden
             > .Icon
                 font-size: 85vw
@@ -61,6 +62,8 @@ body
             .content
                 z-index: 1
                 .features
+                    list-style: none
+                    color: #fff
                     .feature
                         margin: 48px 0
                         font-weight: bold
@@ -132,20 +135,25 @@ body
                         &:hover
                             background: rgba(29,161,242, 0.1)
 
-
-.left
-    background: $mainColor
-
-.left .content .features
-    list-style: none
-    color: #fff
 .footer
+    width: 75%
+    margin: auto
+    padding: 10px 0
     .footer-menu
         list-style: none
         padding-left: 0
         margin-bottom: 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
         .menu-item
             display: inline-block
+            font-size: 12px
+            line-height: 20px
+            color: $linkColor
+            a
+                color: $linkColor
 
 
 

@@ -59,6 +59,7 @@ body {
 }
 
 .root .main .left {
+  background: #1da1f2;
   overflow: hidden;
 }
 
@@ -72,6 +73,11 @@ body {
 
 .root .main .left .content {
   z-index: 1;
+}
+
+.root .main .left .content .features {
+  list-style: none;
+  color: #fff;
 }
 
 .root .main .left .content .features .feature {
@@ -177,22 +183,36 @@ body {
   background: rgba(29, 161, 242, 0.1);
 }
 
-.left {
-  background: #1da1f2;
-}
-
-.left .content .features {
-  list-style: none;
-  color: #fff;
+.footer {
+  width: 75%;
+  margin: auto;
+  padding: 10px 0;
 }
 
 .footer .footer-menu {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 
 .footer .footer-menu .menu-item {
   display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  color: #aab8c2;
+}
+
+.footer .footer-menu .menu-item a {
+  color: #aab8c2;
 }
 /*# sourceMappingURL=style.css.map */
