@@ -1,7 +1,8 @@
-$mainColor: #1da1f2;
+$mainColor: #1da1f2
+$linkColor: #aab8c2
 
 @font-face 
-    font-family: "edgeicons";
+    font-family: "edgeicons"
     src: url("../../font/edge-icons-Regular.eot")
     src: url("../../font/edge-icons-Regular.eot?#iefix") format("embedded-opentype"), url("../../font/edge-icons-Regular.woff") format("woff"), url("../../font/edge-icons-Regular.ttf") format("truetype")
 
@@ -45,13 +46,8 @@ $mainColor: #1da1f2;
     .main
         height: 100%
         .left
-            display: flex
-            justify-content: center
-            align-items: center
-            position: relative
             overflow: hidden
             > .Icon
-                position: absolute
                 font-size: 85vw
                 z-index: 0
                 right: -595px
@@ -61,7 +57,6 @@ $mainColor: #1da1f2;
                 z-index: 1
                 .features
                     .feature
-                        display: flex
                         margin: 48px 0
                         font-weight: bold
                         font-size: 18px
@@ -69,7 +64,28 @@ $mainColor: #1da1f2;
                         .Icon
                             font-size: 35px
                             margin-right: 16px
-            
+        .right
+            form.header
+                width: 100%
+                margin-top: 30px
+                max-width: 550px
+                padding-right: 20px
+                padding-left: 20px
+                input
+                    height: 45px
+                    width: 210px
+                    font-size: 14px
+                button
+                    height: 45px
+                    border-radius: 100px
+                    font-weight: bold
+                    font-size: 14px
+                    line-height: 20px
+                .password
+                    .link
+                        color: $linkColor
+                        font-size: 14px
+                        line-height: 20px
 
 .left
     background: $mainColor
