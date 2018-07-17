@@ -93,11 +93,12 @@ body {
 }
 
 .root .main .right form.header {
+  position: absolute;
   width: 100%;
-  margin-top: 30px;
   max-width: 550px;
   padding-right: 20px;
   padding-left: 20px;
+  top: 20px;
 }
 
 .root .main .right form.header input {
@@ -127,7 +128,6 @@ body {
 
 .root .main .right .content {
   max-width: 350px;
-  margin-top: 80px;
 }
 
 .root .main .right .content > .top .Icon--bird {
