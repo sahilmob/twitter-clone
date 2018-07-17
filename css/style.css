@@ -76,11 +76,11 @@ body {
   overflow: hidden;
 }
 
-.root .main .left > .Icon {
+.root .main .left > .background {
   font-size: 85vw;
   z-index: 0;
-  right: -595px;
-  top: -745px;
+  right: -39vw;
+  top: -48vw;
   opacity: 0.1;
 }
 
@@ -224,6 +224,25 @@ body {
   }
   .left .content, .right .content {
     width: 100%;
+  }
+}
+
+@media (max-width: 575.99px) {
+  .background {
+    bottom: -10vw;
+    left: -20vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .background::before {
+    font-size: 140vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

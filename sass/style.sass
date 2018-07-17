@@ -63,11 +63,11 @@ body
         .left
             background: $mainColor
             overflow: hidden
-            > .Icon
+            > .background
                 font-size: 85vw
                 z-index: 0
-                right: -595px
-                top: -745px
+                right: -39vw
+                top: -48vw
                 opacity: 0.1
             .content
                 z-index: 1
@@ -168,3 +168,14 @@ body
         max-width: 100%
         .content
             width: 100%
+@media (max-width: 575.99px)
+    .background
+        bottom: -10vw
+        left: -20vw
+        display: flex
+        align-items: center
+        justify-content: center
+        &::before
+            font-size: 140vw
+            
+            
