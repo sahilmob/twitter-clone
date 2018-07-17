@@ -50,6 +50,19 @@ body {
   content: "\f179";
 }
 
+.log-in-btn {
+  height: 45px;
+  border-radius: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.log-in-btn:hover {
+  background: rgba(29, 161, 242, 0.1);
+  color: #1da1f2;
+}
+
 .root {
   height: 94vh;
 }
@@ -107,19 +120,6 @@ body {
   font-size: 14px;
 }
 
-.root .main .right form.header button {
-  height: 45px;
-  border-radius: 100px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.root .main .right form.header button:hover {
-  background: rgba(29, 161, 242, 0.1);
-  color: #1da1f2;
-}
-
 .root .main .right form.header .password .link {
   color: #aab8c2;
   font-size: 14px;
@@ -130,7 +130,11 @@ body {
   max-width: 350px;
 }
 
-.root .main .right .content > .top .Icon--bird {
+.root .main .right .content > .top .icons {
+  width: 100%;
+}
+
+.root .main .right .content > .top .icons .Icon--bird {
   color: #1da1f2;
   font-size: 45px;
 }

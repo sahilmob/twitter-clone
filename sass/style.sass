@@ -46,6 +46,16 @@ body
 .Icon--bird:before 
     content: "\f179"
 
+.log-in-btn
+    height: 45px
+    border-radius: 100px
+    font-weight: bold
+    font-size: 14px
+    line-height: 20px
+    &:hover
+        background: rgba(29,161,242, 0.1)
+        color: $mainColor
+
 .root
     height: 94vh
     .main
@@ -84,15 +94,6 @@ body
                     height: 45px
                     width: 210px
                     font-size: 14px
-                button
-                    height: 45px
-                    border-radius: 100px
-                    font-weight: bold
-                    font-size: 14px
-                    line-height: 20px
-                    &:hover
-                        background: rgba(29,161,242, 0.1)
-                        color: $mainColor
                 .password
                     .link
                         color: $linkColor
@@ -101,9 +102,11 @@ body
             .content
                 max-width: 350px
                 > .top
-                    .Icon--bird
-                        color: $mainColor
-                        font-size: 45px
+                    .icons
+                        width: 100%
+                        .Icon--bird
+                            color: $mainColor
+                            font-size: 45px
                     .title
                         font-size: 27px
                         line-height: 32px
