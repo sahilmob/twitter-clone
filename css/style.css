@@ -220,4 +220,15 @@ body {
 .footer .footer-menu .menu-item a {
   color: #aab8c2;
 }
+
+@media (max-width: 991.99px) {
+  .left, .right {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .left .content, .right .content {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
