@@ -90,9 +90,6 @@ body
             padding-top: 10px
             max-width: 1190px
             margin: auto
-            .main
-                flex-grow: 1
-                background: black
             .left, .right
                 width: 290px
             .left
@@ -191,8 +188,34 @@ body
                             color: $mainMenuLink
                             &:hover
                                 text-decoration: none
-
-
+            .main
+                flex-grow: 1
+                background: #fff
+                margin: 0 10px
+                .tweet-input
+                    background: #E8F5FD
+                    border: 1px solid $sectionBorder
+                    .content
+                        padding: 10px 12px 10px 30px
+                        .avatar
+                            img
+                                width: 32px
+                                height: 32px
+                        .tweet-form
+                            margin-left: 10px
+                            width: 100%
+                            .Icon--media
+                                right: 20px
+                                top: 4px
+                                color: $mainColor
+                                font-size: 18px
+                            .form-control
+                                font-size: 14px
+                                ::placeholder
+                                    color: $mainColor !important
+                                    
+            .right
+                background: #fff
 
 
 
