@@ -16,6 +16,11 @@ body {
   position: relative;
 }
 
+.Icon--large {
+  font-size: 21px;
+  line-height: 1;
+}
+
 .Icon:after,
 .Icon:before {
   display: block;
@@ -48,5 +53,109 @@ body {
 
 .Icon--bird:before {
   content: "\f179";
+}
+
+.Icon--home:before {
+  content: "\f053";
+}
+
+.Icon--homeFilled:before {
+  content: "\f553";
+}
+
+.Icon--notifications:before {
+  content: "\f055";
+}
+
+.Icon--notificationsFilled:before {
+  content: "\f019";
+}
+
+.Icon--notificationsDisabled:before {
+  content: "\f037";
+}
+
+.button-text .Icon--tweet,
+.button-text .Icon--dm,
+.button-text .Icon--reply {
+  left: -2px;
+  top: -2px;
+}
+
+.Icon--dm:before {
+  content: "\f054";
+}
+
+.Icon--dmCompose:before {
+  content: "\f035";
+}
+
+.home.active .Icon--home,
+.moments.active .Icon--lightning,
+.notifications.active .Icon--notifications {
+  display: none;
+}
+
+.home:not(.active) .Icon--homeFilled,
+.moments:not(.active) .Icon--lightningFilled,
+.notifications:not(.active) .Icon--notificationsFilled {
+  display: none;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  max-height: 46px;
+  padding: 0;
+}
+
+.navbar .root {
+  margin: auto;
+  width: 1190px;
+  height: 100%;
+}
+
+.navbar .root .left {
+  height: 43px;
+}
+
+.navbar .root .left .nav-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid #1da1f2;
+  padding-left: 4px;
+  padding-right: 14px;
+  color: #66757f;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.navbar .root .left .nav-item:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #1da1f2;
+  color: #1da1f2;
+}
+
+.navbar .root .left .nav-item .text {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 3px;
+  line-height: 1;
+  vertical-align: text-top;
+}
+
+.navbar .root .left .nav-item .Icon {
+  margin: 11px 0 0 10px;
+  width: 23px;
+  height: 23px;
+}
+
+.navbar .root .left .active {
+  color: #1da1f2;
+  border-bottom: 2px solid #1da1f2;
+}
+
+.navbar .root .Icon--bird {
+  font-size: 20px;
+  color: #1da1f2;
 }
 /*# sourceMappingURL=feed.css.map */

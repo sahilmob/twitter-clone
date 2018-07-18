@@ -16,6 +16,11 @@ body {
   position: relative;
 }
 
+.Icon--large {
+  font-size: 21px;
+  line-height: 1;
+}
+
 .Icon:after,
 .Icon:before {
   display: block;
@@ -48,6 +53,53 @@ body {
 
 .Icon--bird:before {
   content: "\f179";
+}
+
+.Icon--home:before {
+  content: "\f053";
+}
+
+.Icon--homeFilled:before {
+  content: "\f553";
+}
+
+.Icon--notifications:before {
+  content: "\f055";
+}
+
+.Icon--notificationsFilled:before {
+  content: "\f019";
+}
+
+.Icon--notificationsDisabled:before {
+  content: "\f037";
+}
+
+.button-text .Icon--tweet,
+.button-text .Icon--dm,
+.button-text .Icon--reply {
+  left: -2px;
+  top: -2px;
+}
+
+.Icon--dm:before {
+  content: "\f054";
+}
+
+.Icon--dmCompose:before {
+  content: "\f035";
+}
+
+.home.active .Icon--home,
+.moments.active .Icon--lightning,
+.notifications.active .Icon--notifications {
+  display: none;
+}
+
+.home:not(.active) .Icon--homeFilled,
+.moments:not(.active) .Icon--lightningFilled,
+.notifications:not(.active) .Icon--notificationsFilled {
+  display: none;
 }
 
 .log-in-btn {
