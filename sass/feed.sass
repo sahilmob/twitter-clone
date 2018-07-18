@@ -145,6 +145,50 @@ body
                                     font-weight: bold
                                     padding-top: 3px
                                     color: $mainColor
+                .trends
+                    background: #fff                                 
+                    margin-top: 10px
+                    padding: 15px
+                    > .title
+                        font-size: 18px
+                        font-weight: bold
+                        color: $darkTxtColor
+                        .change-trends
+                            font-size: 12px
+                            font-weight: normal
+                            position: relative
+                            margin-left: 10px
+                            &::before
+                                content: ''
+                                display: inline-block
+                                position: absolute
+                                width: 2px
+                                height: 2px
+                                background: $darkTxtColor
+                                border-radius: 100px
+                                top: 9px
+                                left: -8px
+                                opacity: 0.5
+                .hashtags
+                    list-style-type: none
+                    padding-left: 0
+                    margin-top: 5px
+                    .hashtag
+                        margin-bottom: 10px
+                        &:hover
+                            .title
+                                text-decoration: underline
+                        .title
+                            font-size: 14px
+                            font-weight: bold
+                            color: $mainColor
+                        .count
+                            font-size: 12px
+                            font-weight: 400
+                            color: $mainMenuLink
+                            &:hover
+                                text-decoration: none
+
 
 
 

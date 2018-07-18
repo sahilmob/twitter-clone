@@ -310,4 +310,66 @@ body > .root .row .left .user_info .bottom .stats .stat .count {
   padding-top: 3px;
   color: #1da1f2;
 }
+
+body > .root .row .left .trends {
+  background: #fff;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+body > .root .row .left .trends > .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+body > .root .row .left .trends > .title .change-trends {
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  margin-left: 10px;
+}
+
+body > .root .row .left .trends > .title .change-trends::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #14171a;
+  border-radius: 100px;
+  top: 9px;
+  left: -8px;
+  opacity: 0.5;
+}
+
+body > .root .row .left .hashtags {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+body > .root .row .left .hashtags .hashtag {
+  margin-bottom: 10px;
+}
+
+body > .root .row .left .hashtags .hashtag:hover .title {
+  text-decoration: underline;
+}
+
+body > .root .row .left .hashtags .hashtag .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1da1f2;
+}
+
+body > .root .row .left .hashtags .hashtag .count {
+  font-size: 12px;
+  font-weight: 400;
+  color: #66757f;
+}
+
+body > .root .row .left .hashtags .hashtag .count:hover {
+  text-decoration: none;
+}
 /*# sourceMappingURL=feed.css.map */
