@@ -196,4 +196,20 @@ body {
   width: 32px;
   height: 32px;
 }
+
+.navbar .root .right .tweet {
+  display: block;
+  margin-left: 14px;
+  border-radius: 200px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 20px;
+  background: #4AB3F4;
+  border: none;
+}
+
+.navbar .root .right .tweet:hover {
+  background: #1da1f2;
+}
 /*# sourceMappingURL=feed.css.map */
