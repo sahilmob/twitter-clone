@@ -218,10 +218,9 @@ body {
 }
 
 body > .root .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 10px;
+  max-width: 1190px;
+  margin: auto;
 }
 
 body > .root .row .main {
