@@ -351,6 +351,7 @@ body > .root .row .left .hashtags {
 
 body > .root .row .left .hashtags .hashtag {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 body > .root .row .left .hashtags .hashtag:hover .title {
