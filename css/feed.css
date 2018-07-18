@@ -424,6 +424,31 @@ body > .root .row .main .tweet-input .content .tweet-form .form-control ::placeh
   color: #1da1f2 !important;
 }
 
+body > .root .row .main .new-tweets {
+  background: #f5f8fa;
+  cursor: pointer;
+  border-left: 1px solid #e6ecf0;
+  border-right: 1px solid #e6ecf0;
+}
+
+body > .root .row .main .new-tweets:hover {
+  background: #e6ecf0;
+}
+
+body > .root .row .main .new-tweets .content {
+  padding: 10px 0;
+}
+
+body > .root .row .main .new-tweets .content .new-tweets-link {
+  font-size: 14px;
+  color: #007bff;
+  font-weight: 400;
+}
+
+body > .root .row .main .new-tweets .content .new-tweets-link:hover {
+  text-decoration: none;
+}
+
 body > .root .row .right {
   background: #fff;
 }
