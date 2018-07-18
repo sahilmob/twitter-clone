@@ -1,6 +1,5 @@
 body {
   font-family: "Segoe UI",Arial,sans-serif;
-  background: #e6ecf0;
 }
 
 @font-face {
@@ -212,6 +211,10 @@ body {
 
 .navbar .root .right .tweet:hover {
   background: #1da1f2;
+}
+
+body {
+  background: #e6ecf0;
 }
 
 body > .root .row {
