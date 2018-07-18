@@ -8,6 +8,7 @@
     border-bottom: 1px solid rgba(0,0,0,0.25)
     max-height: 46px
     padding: 0
+    background: #fff
     .root
         .left
             height: 43px
@@ -80,8 +81,19 @@
                 border: none
                 &:hover
                     background: $mainColor
-                
-                
+
+body
+    > .root
+        .row
+            display: flex
+            .main
+                flex-grow: 1
+                height: 100px
+                background: black
+            .left, .right
+                width: 290px
+                height: 100px
+                background: green               
 
 
 
