@@ -192,9 +192,10 @@ body
                 flex-grow: 1
                 background: #fff
                 margin: 0 10px
+                max-width: 610px
                 .tweet-input
                     background: #E8F5FD
-                    border: 1px solid $sectionBorder
+                    border-bottom: 1px solid $sectionBorder
                     .content
                         padding: 10px 12px 10px 30px
                         .avatar
@@ -216,8 +217,6 @@ body
                 .new-tweets
                     background: #f5f8fa
                     cursor: pointer
-                    border-left: 1px solid $sectionBorder
-                    border-right: 1px solid $sectionBorder
                     &:hover
                         background: #e6ecf0
                     .content
@@ -228,6 +227,70 @@ body
                             font-weight: 400
                             &:hover
                                 text-decoration: none           
+                .tweet-view
+                    border-bottom: 1px solid $sectionBorder
+                    padding: 9px 12px
+                    .avatar
+                        margin-top: 5px
+                        padding-right: 0
+                        img
+                            border-radius: 50%
+                            width: 48px
+                            height: 48px
+                            cursor: 
+                    .content
+                        padding-left: 10px
+                        .top
+                            .meta
+                                .name
+                                    font-size: 14px
+                                    font-weight: bold
+                                    color: $darkTxtColor
+                                    &:hover
+                                        color: $mainColor
+                                .Icon--verified
+                                    margin-left: 2px
+                                .handle
+                                    color: #657786
+                                    font-size: 14px
+                                    margin-left: 5px
+                                .date
+                                    font-size: 14px
+                                    &:before
+                                        content: '\00b7'
+                                        margin: auto 5px
+                        .tweet-body
+                            .tweet-text
+                                font-size: 14px
+                                margin-bottom: 10px
+                            img
+                                display: block
+                                width: 100%
+                        .tweet-controls
+                            margin-top: 10px
+                            margin-bottom: 2px
+                            .control
+                                color: #657786
+                                margin-right: 32px
+                                cursor: pointer
+                                .count
+                                    font-size: 12px
+                                    font-weight: bold
+                                    margin-left: 10px
+                            .comment
+                                &:hover
+                                    color: $mainColor
+                            .rtweet
+                                &:hover
+                                    color: #17bf63
+                            .like
+                                &:hover
+                                    color: #e0245e
+                            .dm
+                                &:hover
+                                    color: $mainColor
+                                    
+
             .right
                 background: #fff
 
