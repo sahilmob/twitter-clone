@@ -555,6 +555,10 @@ body > .root .row .main .tweet-view .content .top .meta .date:before {
   margin: auto 5px;
 }
 
+body > .root .row .main .tweet-view .content .top .Icon--caretDownLight {
+  cursor: pointer;
+}
+
 body > .root .row .main .tweet-view .content .tweet-body .tweet-text {
   font-size: 14px;
   margin-bottom: 10px;
