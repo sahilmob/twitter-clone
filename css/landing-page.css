@@ -79,6 +79,15 @@ body {
   content: "\f109";
 }
 
+.Icon--caretDownLight:before {
+  content: "\f196";
+}
+
+.Icon--small {
+  font-size: 16px;
+  line-height: 15px;
+}
+
 .button-text .Icon--tweet,
 .button-text .Icon--dm,
 .button-text .Icon--reply {
