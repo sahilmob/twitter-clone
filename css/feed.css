@@ -509,6 +509,11 @@ body > .root .row .main .new-tweets .content .new-tweets-link:hover {
 body > .root .row .main .tweet-view {
   border-bottom: 1px solid #e6ecf0;
   padding: 9px 12px;
+  cursor: pointer;
+}
+
+body > .root .row .main .tweet-view:hover {
+  background: #fafafa;
 }
 
 body > .root .row .main .tweet-view .avatar {
