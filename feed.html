@@ -141,7 +141,64 @@
                         <a href="#" class="new-tweets-link">See 3 new Tweets</a>
                     </div>
                 </div>
-                <div class="tweet-view row">
+                <div class="tweet-view row" data-toggle="modal" data-target="#exampleModal">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-auto avatar">
+                                            <img src="./img/gates.jpg" alt="">
+                                        </div>
+                                        <div class="col content">
+                                            <div class="top d-flex justify-content-between">
+                                                <div class="meta d-flex">
+                                                    <a class="name" href="">Bill Gates</a>
+                                                    <span class="Icon Icon--verified"></span>
+                                                    <div class="handle">@BillGates</div>
+                                                    <div class="date">Jul 18</div>
+                                                </div>
+                                                <span class="Icon Icon--caretDownLight Icon--small" id="tweetMoreBtn" data-toggle="dropdown" data-placement="top" title="More"></span>
+                                                <div class="dropdown-menu" aria-labelledby="tweetMoreBtn">
+                                                    <a class="dropdown-item" href="#">Copy link to Tweet</a>
+                                                    <a class="dropdown-item" href="#">Embed Tweet</a>
+                                                    <a class="dropdown-item" href="#">Mute @BillGates</a>
+                                                    <a class="dropdown-item" href="#">Block @BillGates</a>
+                                                    <a class="dropdown-item" href="#">Report Tweet</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Add to new Moment</a>
+                                                </div>
+                                            </div>
+                                            <div class="tweet-body">
+                                                <p class="tweet-text">
+                                                    Alzheimer’s research is one of the most exciting frontiers of science. I’m optimistic we can alter the course of the disease if we make progress in five key areas, including the development of a better diagnostic:
+                                                    <a href="#">b-gat.es/2zTzYJZ</a>
+                                                </p>
+                                                <img src="./img/tweet-media-1.jpg" alt="">
+                                            </div>
+                                            <div class="tweet-controls d-flex">
+                                                <div class="control d-flex align-items-center comment">
+                                                    <span class="Icon Icon--medium Icon--reply" data-toggle="tooltip" data-placement="top" title="Reply"></span>
+                                                    <div class="count">162</div>
+                                                </div>
+                                                <div class="control d-flex align-items-center rtweet">
+                                                    <span class="Icon Icon--medium Icon--retweet" data-toggle="tooltip" data-placement="top" title="Retweet"></span>
+                                                    <div class="count">891</div>
+                                                </div>
+                                                <div class="control d-flex align-items-center like">
+                                                    <span class="Icon Icon--heart Icon--medium" data-toggle="tooltip" data-placement="top" title="Like"></span>
+                                                    <div class="count">4.6K</div>
+                                                </div>
+                                                <div class="control d-flex align-items-center dm">
+                                                    <span class="Icon Icon--medium Icon--dm" data-toggle="tooltip" data-placement="top" title="Direct message"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-auto avatar">
                         <img src="./img/gates.jpg" alt="">
                     </div>
