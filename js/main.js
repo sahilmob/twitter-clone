@@ -13,5 +13,12 @@ $(function() {
         $('#tweetMoreBtn').tooltip('hide')
     })
 
-    $('[data-toggle="popover"]').popover()
+    $('[data-toggle="popover"]').popover({
+        html: true,
+        content: function() {
+            return $('#user-' + $(this).attr('data-user')).html()
+        },
+        trigger: "hover",
+        placement: 'top'
+    })
 })
