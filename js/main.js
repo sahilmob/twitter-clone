@@ -19,6 +19,7 @@ $(function() {
             return $('#user-' + $(this).attr('data-user')).html()
         },
         trigger: "hover",
-        placement: 'top'
+        placement: 'top',
+        delay: 200
     })
 })
