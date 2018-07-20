@@ -180,6 +180,13 @@ body {
   font-size: 12px;
 }
 
+.following-btn {
+  border-radius: 30px;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .log-in-btn {
   height: 45px;
   border-radius: 100px;

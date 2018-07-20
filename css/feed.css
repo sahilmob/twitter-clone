@@ -180,6 +180,13 @@ body {
   font-size: 12px;
 }
 
+.following-btn {
+  border-radius: 30px;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .root {
   margin: auto;
   width: 1190px;
@@ -531,6 +538,62 @@ body > .root .row .main .tweet-view {
 
 body > .root .row .main .tweet-view:hover {
   background: #fafafa;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content {
+  width: 100%;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body {
+  width: 100%;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .top {
+  width: 100%;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-body .tweet-text {
+  font-size: 27px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-body img {
+  display: block;
+  width: 100%;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .control {
+  color: #657786;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .control .count {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .comment:hover {
+  color: #1da1f2;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .rtweet:hover {
+  color: #17bf63;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .like:hover {
+  color: #e0245e;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .dm:hover {
+  color: #1da1f2;
 }
 
 body > .root .row .main .tweet-view .avatar {
