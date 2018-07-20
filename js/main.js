@@ -12,4 +12,6 @@ $(function() {
     $('#tweetMoreBtn').on('click', function() {
         $('#tweetMoreBtn').tooltip('hide')
     })
+
+    $('[data-toggle="popover"]').popover()
 })
