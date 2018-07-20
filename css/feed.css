@@ -596,6 +596,12 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
   width: 100%;
 }
 
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .date {
+  width: 100%;
+  font-size: 14px;
+  color: #66757f;
+}
+
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls {
   margin-top: 10px;
   margin-bottom: 2px;
