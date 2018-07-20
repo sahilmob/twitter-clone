@@ -164,6 +164,22 @@ body {
   display: none;
 }
 
+.dropdown-item {
+  font-size: 14px;
+  font-weight: normal;
+  color: #66757f;
+  line-height: 20px;
+}
+
+.dropdown-item:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.tooltip-inner {
+  font-size: 12px;
+}
+
 .log-in-btn {
   height: 45px;
   border-radius: 100px;
