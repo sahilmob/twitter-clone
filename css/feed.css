@@ -622,11 +622,10 @@ body > .root .row .main .tweet-view:hover {
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content {
   width: 640px;
-  padding: 30px 40px;
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body {
-  padding: 0;
+  padding: 30px 40px;
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row:first-of-type {
@@ -764,6 +763,16 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls .dm:hover {
   color: #1da1f2;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay {
+  width: 100%;
+  padding-top: 0;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input {
+  background: #e6ecf0;
+  width: 100%;
 }
 
 body > .root .row .main .tweet-view .avatar {
