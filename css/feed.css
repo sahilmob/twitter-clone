@@ -152,6 +152,26 @@ body {
   content: "\f035";
 }
 
+.Icon--smiley:before {
+  content: "\f033";
+}
+
+.Icon--smiley {
+  color: #aab8c2;
+}
+
+.Icon--gif:before {
+  content: "\f028";
+}
+
+.Icon--pollBar:before {
+  content: "\f199";
+}
+
+.Icon--geo:before {
+  content: "\f031";
+}
+
 .home.active .Icon--home,
 .moments.active .Icon--lightning,
 .notifications.active .Icon--notifications {
@@ -554,12 +574,18 @@ body > .root .row .main .tweet-input .content .avatar img {
   height: 32px;
 }
 
+body > .root .row .main .tweet-input .content .replay-form .Icon--smiley {
+  right: 20px;
+  top: 4px;
+  font-size: 18px;
+}
+
 body > .root .row .main .tweet-input .content .tweet-form {
   margin-left: 10px;
   width: 100%;
 }
 
-body > .root .row .main .tweet-input .content .tweet-form .Icon--media {
+body > .root .row .main .tweet-input .content .tweet-form > .Icon--media {
   right: 20px;
   top: 4px;
   color: #1da1f2;
