@@ -141,8 +141,8 @@
                         <a href="#" class="new-tweets-link">See 3 new Tweets</a>
                     </div>
                 </div>
-                <div class="tweet-view row" data-toggle="modal" data-target="#exampleModal">
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="tweet-view row" data-toggle="modal" data-target="#tweetModal">
+                    <div class="modal fade tweet-modal" id="tweetModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-body">
@@ -152,21 +152,23 @@
                                         </div>
                                         <div class="col content">
                                             <div class="top d-flex justify-content-between">
-                                                <div class="meta d-flex">
-                                                    <a class="name" href="">Bill Gates</a>
-                                                    <span class="Icon Icon--verified"></span>
+                                                <div class="meta d-flex flex-column">
+                                                    <a class="name" href="">Bill Gates <span class="Icon Icon--verified"></span></a>
+
                                                     <div class="handle">@BillGates</div>
-                                                    <div class="date">Jul 18</div>
                                                 </div>
-                                                <span class="Icon Icon--caretDownLight Icon--small" id="tweetMoreBtn" data-toggle="dropdown" data-placement="top" title="More"></span>
-                                                <div class="dropdown-menu" aria-labelledby="tweetMoreBtn">
-                                                    <a class="dropdown-item" href="#">Copy link to Tweet</a>
-                                                    <a class="dropdown-item" href="#">Embed Tweet</a>
-                                                    <a class="dropdown-item" href="#">Mute @BillGates</a>
-                                                    <a class="dropdown-item" href="#">Block @BillGates</a>
-                                                    <a class="dropdown-item" href="#">Report Tweet</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Add to new Moment</a>
+                                                <div class="controls">
+                                                    <a class="btn btn-primary following-btn">Following</a>
+                                                    <span class="Icon Icon--caretDownLight Icon--small" id="tweetMoreBtn" data-toggle="dropdown" data-placement="top" title="More"></span>
+                                                    <div class="dropdown-menu" aria-labelledby="tweetMoreBtn">
+                                                        <a class="dropdown-item" href="#">Copy link to Tweet</a>
+                                                        <a class="dropdown-item" href="#">Embed Tweet</a>
+                                                        <a class="dropdown-item" href="#">Mute @BillGates</a>
+                                                        <a class="dropdown-item" href="#">Block @BillGates</a>
+                                                        <a class="dropdown-item" href="#">Report Tweet</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Add to new Moment</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="tweet-body">
