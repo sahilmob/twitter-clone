@@ -602,6 +602,57 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
   color: #66757f;
 }
 
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats {
+  margin-top: 10px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left {
+  padding: 12px 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: auto;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .retweets {
+  margin-right: 20px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .likes {
+  margin-right: 10px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .retweets:hover, body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .likes:hover {
+  color: #1da1f2;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .retweets .count, body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .likes .count {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .retweets .text, body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .left .likes .text {
+  font-size: 14px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .right {
+  height: 100%;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .right .user-profile-link {
+  margin: auto 5px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .right .user-profile-link:first-of-type {
+  margin-left: 15px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row > .stats .right .user-profile-link img {
+  width: 24px;
+  height: 24px;
+}
+
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-controls {
   margin-top: 10px;
   margin-bottom: 2px;
