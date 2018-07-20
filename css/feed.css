@@ -541,15 +541,44 @@ body > .root .row .main .tweet-view:hover {
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content {
-  width: 100%;
+  width: 640px;
+  padding: 30px 40px;
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body {
-  width: 100%;
+  padding: 0;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row:first-of-type {
+  padding: 0;
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .top {
   width: 100%;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .user-info .meta {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .user-info .meta .name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .user-info .meta .name:hover {
+  color: #1da1f2;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .user-info .meta .Icon--verified {
+  margin-left: 2px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .user-info .meta .handle {
+  color: #657786;
+  font-size: 14px;
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-body .tweet-text {
