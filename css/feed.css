@@ -1130,4 +1130,15 @@ body > .root .row .right .page-footer .adv-link a {
   margin-left: 10px;
   font-size: 12px;
 }
+
+@media (max-width: 1252px) {
+  .root > .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .root > .row > .right {
+    display: none;
+  }
+}
 /*# sourceMappingURL=feed.css.map */
