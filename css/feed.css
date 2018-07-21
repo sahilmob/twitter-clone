@@ -416,6 +416,10 @@ body > .root .row .left {
   width: 290px;
 }
 
+body > .root .row .right {
+  max-width: 270px;
+}
+
 body > .root .row .left .user_info .top {
   background: #1da1f2;
   height: 95px;
@@ -964,7 +968,125 @@ body > .root .row .main .tweet-view .content .tweet-controls .dm:hover {
   color: #1da1f2;
 }
 
-body > .root .row .right {
+body > .root .row .right .row {
+  padding: 0;
   background: #fff;
+}
+
+body > .root .row .right .who-to-follow .top {
+  padding: 15px;
+}
+
+body > .root .row .right .who-to-follow .top .title {
+  font-weight: bold;
+}
+
+body > .root .row .right .who-to-follow .top .link a {
+  font-size: 12px;
+}
+
+body > .root .row .right .who-to-follow .top .link::before {
+  content: '\00b7';
+  margin: 0 3px 0 6px;
+}
+
+body > .root .row .right .who-to-follow .main {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0 15px 10px 15px;
+}
+
+body > .root .row .right .who-to-follow .main .item {
+  width: 100%;
+  padding: 8px 0;
+}
+
+body > .root .row .right .who-to-follow .main .item .row {
+  width: 100%;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .avatar {
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .main-col {
+  padding: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .main-col .meta .name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .main-col .meta > .Icon--verified {
+  margin-left: 3px;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .main-col .meta .handle {
+  overflow-x: hidden;
+  font-size: 14px;
+  margin-left: 5px;
+  max-width: 50px;
+  color: #657786;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .main-col .btn-outline-primary {
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 4px 12px;
+  margin-top: 5px;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .main-col .btn-outline-primary:hover {
+  background: rgba(29, 161, 242, 0.1);
+  color: #1da1f2;
+}
+
+body > .root .row .right .who-to-follow .main .item .row .close-icon {
+  padding: 0;
+  color: #ccd6dd;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+body > .root .row .right .who-to-follow .footer {
+  padding: 15px;
+}
+
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock {
+  padding-bottom: 8px;
+}
+
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .left-img img {
+  width: 20px;
+}
+
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right {
+  padding-left: 0;
+}
+
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right .title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right .subtitle {
+  font-size: 11px;
+}
+
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-other-addresses {
+  font-size: 12px;
+  margin-top: 12px;
 }
 /*# sourceMappingURL=feed.css.map */

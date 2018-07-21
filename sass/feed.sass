@@ -92,6 +92,8 @@ body
             margin: auto
             .left
                 width: 290px
+            .right
+                max-width: 270px
             .left
                 .user_info
                     .top
@@ -445,7 +447,85 @@ body
                                     
 
             .right
-                background: #fff
+                .row
+                    padding: 0
+                    background: #fff
+                .who-to-follow
+                    .top
+                        padding: 15px
+                        .title
+                            font-weight: bold
+                        .link
+                            a
+                                font-size: 12px
+
+                            &::before
+                                content: '\00b7'
+                                margin: 0 3px 0 6px
+                    .main
+                        margin: 0
+                        overflow-x: hidden
+                        padding: 0 15px 10px 15px
+                        .item
+                            width: 100%
+                            padding: 8px 0
+                            .row
+                                width: 100%
+                                .avatar
+                                    padding-left: 0
+                                    padding-right: 5px
+                                    img
+                                        width: 48px
+                                        height: 48px
+                                .main-col
+                                    padding: 0
+                                    flex-grow: 1
+                                    .meta
+                                        .name
+                                            font-size: 14px
+                                            font-weight: bold
+                                            color: $darkTxtColor
+                                        > .Icon--verified
+                                            margin-left: 3px
+                                        .handle
+                                            overflow-x: hidden
+                                            font-size: 14px
+                                            margin-left: 5px
+                                            max-width: 50px
+                                            color: #657786
+                                    .btn-outline-primary
+                                        font-size: 12px
+                                        font-weight: bold
+                                        border-radius: 30px
+                                        padding: 4px 12px
+                                        margin-top: 5px
+                                        &:hover
+                                            background: rgba(29,161,242, 0.1)
+                                            color: $mainColor
+                                .close-icon
+                                    padding: 0
+                                    color: #ccd6dd
+                                    font-size: 12px
+                                    cursor: pointer
+                    .footer
+                        padding: 15px
+                        .find-email-contacts
+                            .connect-outlock
+                                padding-bottom: 8px
+                                .left-img
+                                    img
+                                        width: 20px
+                                .right
+                                    padding-left: 0
+                                    .title
+                                        font-size: 12px
+                                        font-weight: bold
+                                    .subtitle
+                                        font-size: 11px
+                            .connect-other-addresses
+                                font-size: 12px
+                                margin-top: 12px
+
 
 
 
