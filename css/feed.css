@@ -574,7 +574,7 @@ body > .root .row .main .tweet-input .content .avatar img {
   height: 32px;
 }
 
-body > .root .row .main .tweet-input .content .replay-form .Icon--smiley {
+body > .root .row .main .tweet-input .content .reply-form .Icon--smiley {
   right: 20px;
   top: 4px;
   font-size: 18px;
@@ -791,40 +791,40 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
   color: #1da1f2;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply {
   width: 100%;
   padding-top: 0;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input {
   background: #e6ecf0;
   width: 100%;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input .content .replay-form .replay-controls {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .reply-form .reply-controls {
   margin-top: 8px;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input .content .replay-form .replay-controls .icons {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .reply-form .reply-controls .icons {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input .content .replay-form .replay-controls .icons > .Icon {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .reply-form .reply-controls .icons > .Icon {
   padding: 4px 10px 6px 10px;
   color: #1da1f2;
   border-radius: 3px;
   border: 1px solid transparent;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input .content .replay-form .replay-controls .icons > .Icon:hover {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .reply-form .reply-controls .icons > .Icon:hover {
   border: 1px solid #1da1f2;
   background: -webkit-gradient(linear, left bottom, left top, from(#E6F1F6), to(#F5F8FB));
   background: linear-gradient(to top, #E6F1F6, #F5F8FB);
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replay .tweet-input .content .replay-form .replay-controls .replay-btn {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .reply-form .reply-controls .reply-btn {
   color: #fff;
   border-radius: 30px;
   font-size: 14px;
