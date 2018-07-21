@@ -696,7 +696,7 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
   letter-spacing: 0.01em;
 }
 
-body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-body img {
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-body img, body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .modal-body .row .tweet-body video {
   display: block;
   width: 100%;
 }
@@ -922,7 +922,7 @@ body > .root .row .main .tweet-view .content .tweet-body .tweet-text {
   margin-bottom: 10px;
 }
 
-body > .root .row .main .tweet-view .content .tweet-body img {
+body > .root .row .main .tweet-view .content .tweet-body img, body > .root .row .main .tweet-view .content .tweet-body video {
   display: block;
   width: 100%;
 }
