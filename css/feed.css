@@ -846,6 +846,29 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
   font-weight: bold;
 }
 
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replies {
+  padding-top: 0;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replies .tweet-view {
+  padding: 9px 40px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replies .tweet-view .avatar {
+  padding-left: 0;
+  margin-right: 10px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replies .tweet-view .content {
+  padding: 0;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .replies .tweet-view .content .tweet-body .replying-to {
+  font-size: 14px;
+  color: #657786;
+  margin: 5px auto;
+}
+
 body > .root .row .main .tweet-view .avatar {
   margin-top: 5px;
   padding-right: 0;
