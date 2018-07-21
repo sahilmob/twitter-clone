@@ -172,6 +172,10 @@ body {
   content: "\f031";
 }
 
+.Icon--promotedStroked:before {
+  content: "\f504";
+}
+
 .home.active .Icon--home,
 .moments.active .Icon--lightning,
 .notifications.active .Icon--notifications {

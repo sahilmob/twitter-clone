@@ -172,6 +172,10 @@ body {
   content: "\f031";
 }
 
+.Icon--promotedStroked:before {
+  content: "\f504";
+}
+
 .home.active .Icon--home,
 .moments.active .Icon--lightning,
 .notifications.active .Icon--notifications {
@@ -1088,5 +1092,42 @@ body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-ou
 body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-other-addresses {
   font-size: 12px;
   margin-top: 12px;
+}
+
+body > .root .row .right .page-footer {
+  background: #fff;
+  margin-top: 10px;
+}
+
+body > .root .row .right .page-footer .footer-menu {
+  list-style: none;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+body > .root .row .right .page-footer .footer-menu .menu-item {
+  font-size: 12px;
+  line-height: 20px;
+  color: #657786;
+  padding: 0 9px;
+}
+
+body > .root .row .right .page-footer .footer-menu .menu-item a {
+  color: #657786;
+}
+
+body > .root .row .right .page-footer .adv-link {
+  padding: 15px;
+}
+
+body > .root .row .right .page-footer .adv-link .Icon--promotedStroked {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+body > .root .row .right .page-footer .adv-link a {
+  margin-left: 10px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=feed.css.map */
