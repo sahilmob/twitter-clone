@@ -797,8 +797,23 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input {
-  background: #e6ecf0;
+  background: #f5f8fa;
   width: 100%;
+  padding: 10px 40px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .replying-to {
+  font-size: 14px;
+  color: #657786;
+  margin: 5px 0 5px 45px;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content {
+  padding: 0;
+}
+
+body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .avatar {
+  margin-top: 0px;
 }
 
 body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content .reply .tweet-input .content .reply-form .reply-controls {
