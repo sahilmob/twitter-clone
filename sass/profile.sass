@@ -1,0 +1,564 @@
+@import 'common'
+
+.root
+    margin: auto
+    width: 1190px
+    
+
+.navbar
+    border-bottom: 1px solid rgba(0,0,0,0.25)
+    max-height: 46px
+    padding: 0
+    background: #fff
+    .root
+        .left
+            height: 43px
+            .nav-item
+                box-sizing: border-box
+                border-bottom: 1px solid $mainColor
+                padding-left: 4px
+                padding-right: 14px
+                color: $mainMenuLink
+                transition: all .15s ease-in-out
+                &:hover
+                    text-decoration: none
+                    border-bottom: 2px solid $mainColor
+                    color: $mainColor
+                .text
+                    font-size: 13px
+                    font-weight: bold
+                    margin-left: 3px
+                    line-height: 1
+                    vertical-align: text-top
+                .Icon
+                    margin: 11px 0 0 10px
+                    width: 23px
+                    height: 23px
+            .active
+                color: $mainColor
+                border-bottom: 2px solid $mainColor
+
+        .Icon--bird
+            font-size: 20px
+            color: $mainColor
+
+        .right
+            .form-inline
+                margin-right: 15px
+                .search-input
+                    background: #f5f8fa
+                    border: 1px solid #e6ecf0
+                    border-radius: 30px
+                    height: 32px
+                    width: 221px
+                    color: $darkTxtColor
+                    font-size: 12px
+                    line-height: 16px
+                    padding: 8px 32px 8px 12px
+                    transition: all .2s ease-in-out
+                    box-sizing: border-box
+                    &:focus
+                        background: #fff
+                        box-shadow: inset 0 0 0 0.15rem $mainColor
+                        padding-left: 14px
+                
+                .Icon--search
+                    right: 10px
+                    top: 2px
+                    color: $mainMenuLink
+            .avatar
+                img
+                    width: 32px
+                    height: 32px
+            .tweet
+                display: block
+                margin-left: 14px
+                border-radius: 200px
+                height: 32px
+                font-size: 14px
+                font-weight: bold
+                padding: 6px 20px
+                background: #4AB3F4
+                border: none
+                &:hover
+                    background: $mainColor
+
+body
+    background: #e6ecf0
+    > .root
+        margin-top: 43px
+        .row
+            padding-top: 10px
+            max-width: 1190px
+            margin: auto
+            .left
+                width: 290px
+            .right
+                max-width: 270px
+            .left
+                .user_info
+                    .top
+                        background: $mainColor
+                        height: 95px
+                        position: relative
+                        .avatar
+                            position: absolute
+                            bottom: -36px
+                            padding: 1px
+                            margin-left: 8px
+                            img
+                                width: 72px
+                                height: 72px
+                                border: 4px solid #fff
+                    .bottom
+                        background: #fff
+                        .user_name
+                            margin-left: 90px
+                            margin-top: 5px
+                            a
+                                display: block
+                            a.name
+                                color: $darkTxtColor
+                                font-size: 18px
+                                font-weight: bold
+                                line-height: 25px
+                            a.handel
+                                color: #657786
+                                font-size: 14px
+                                font-weight: normal
+                        .stats
+                            padding: 16px
+                            .stat
+                                cursor: pointer
+                                margin-right: 35px
+                                .title
+                                    font-size: 12px
+                                    color: #657786
+                                    font-weight: bold
+                                    letter-spacing: 0.02em
+                                    line-height: 16px
+                                    overflow: hidden
+                                    transition: color .2s ease-in-out
+                                    &:hover
+                                        color: $mainColor
+                                .count
+                                    font-size: 18px
+                                    font-weight: bold
+                                    padding-top: 3px
+                                    color: $mainColor
+                .trends
+                    background: #fff                                 
+                    margin-top: 10px
+                    padding: 15px
+                    > .title
+                        font-size: 18px
+                        font-weight: bold
+                        color: $darkTxtColor
+                        .change-trends
+                            font-size: 12px
+                            font-weight: normal
+                            position: relative
+                            margin-left: 10px
+                            &::before
+                                content: ''
+                                display: inline-block
+                                position: absolute
+                                width: 2px
+                                height: 2px
+                                background: $darkTxtColor
+                                border-radius: 100px
+                                top: 9px
+                                left: -8px
+                                opacity: 0.5
+                .hashtags
+                    list-style-type: none
+                    padding-left: 0
+                    margin-top: 5px
+                    .hashtag
+                        margin-bottom: 10px
+                        cursor: pointer
+                        &:hover
+                            .title
+                                text-decoration: underline
+                        .title
+                            font-size: 14px
+                            font-weight: bold
+                            color: $mainColor
+                        .count
+                            font-size: 12px
+                            font-weight: 400
+                            color: $mainMenuLink
+                            &:hover
+                                text-decoration: none
+            .main
+                flex-grow: 1
+                background: #fff
+                margin: 0 10px
+                max-width: 610px
+                .tweet-input
+                    background: #E8F5FD
+                    border-bottom: 1px solid $sectionBorder
+                    .content
+                        padding: 10px 12px 10px 30px
+                        .avatar
+                            img
+                                width: 32px
+                                height: 32px
+                        .reply-form
+                            .Icon--smiley
+                                right: 20px
+                                top: 4px
+                                font-size: 18px
+                        .tweet-form
+                            margin-left: 10px
+                            width: 100%
+                            >.Icon--media
+                                right: 20px
+                                top: 4px
+                                color: $mainColor
+                                font-size: 18px
+                            .form-control
+                                font-size: 14px
+                                ::placeholder
+                                    color: $mainColor !important
+                .new-tweets
+                    background: #f5f8fa
+                    cursor: pointer
+                    border-bottom: 1px solid $sectionBorder
+                    &:hover
+                        background: #e6ecf0
+                    .content
+                        padding: 10px 0
+                        .new-tweets-link
+                            font-size: 14px
+                            color: #007bff
+                            font-weight: 400
+                            &:hover
+                                text-decoration: none           
+                .tweet-view
+                    border-bottom: 1px solid $sectionBorder
+                    padding: 9px 12px
+                    cursor: pointer
+                    &:hover
+                        background: #fafafa
+                    >.tweet-modal
+                        .modal-dialog
+                            .modal-content
+                                width: 640px
+                                .modal-body
+                                    padding: 30px 40px
+                                    .row
+                                        &:first-of-type
+                                            padding: 0
+                                        .top
+                                            width: 100%
+                                            .user-info
+                                                .meta
+                                                    margin-left: 10px
+                                                    margin-top: 5px
+                                                    .name
+                                                        font-size: 14px
+                                                        font-weight: bold
+                                                        color: $darkTxtColor
+                                                        &:hover
+                                                            color: $mainColor
+                                                    .Icon--verified
+                                                        margin-left: 2px
+                                                    .handle
+                                                        color: #657786
+                                                        font-size: 14px
+                                            >.controls
+                                                width: 120px
+                                        .tweet-body
+                                            .tweet-text
+                                                font-size: 27px
+                                                line-height: 32px
+                                                letter-spacing: 0.01em
+                                            img, video
+                                                display: block
+                                                width: 100%
+                                        > .date
+                                            width: 100%
+                                            font-size: 14px
+                                            color: $mainMenuLink
+
+                                        > .stats
+                                            margin-top: 10px
+                                            width: 100%
+                                            .left
+                                                padding: 12px 0
+                                                flex-grow: 1
+                                                .retweets
+                                                    margin-right: 20px
+                                                .likes
+                                                    margin-right: 10px
+                                                .retweets, .likes
+                                                    &:hover
+                                                        color: $mainColor
+                                                    .count
+                                                        font-size: 14px
+                                                        font-weight: bold
+                                                        margin-right: 5px
+                                                    .text
+                                                        font-size: 14px
+                                            .right
+                                                height: 100%
+                                                .user-profile-link
+                                                    margin: auto 5px
+                                                    &:first-of-type
+                                                        margin-left: 15px
+                                                    img
+                                                        width: 24px
+                                                        height: 24px
+                                                
+                
+                                        .tweet-controls
+                                            margin-top: 10px
+                                            margin-bottom: 2px
+                                            .control
+                                                color: #657786
+                                                margin-right: 32px
+                                                cursor: pointer
+                                                .count
+                                                    font-size: 12px
+                                                    font-weight: bold
+                                                    margin-left: 10px
+                                            .comment
+                                                &:hover
+                                                    color: $mainColor
+                                            .rtweet
+                                                &:hover
+                                                    color: #17bf63
+                                            .like
+                                                &:hover
+                                                    color: #e0245e
+                                            .dm
+                                                &:hover
+                                                    color: $mainColor
+                                .reply
+                                    width: 100%
+                                    padding-top: 0
+                                    .tweet-input
+                                        background: #f5f8fa
+                                        width: 100%
+                                        padding: 10px 40px
+                                        .replying-to
+                                            font-size: 14px
+                                            color: #657786
+                                            margin: 5px 0 5px 45px
+                                        .content
+                                            padding: 0
+                                            .avatar
+                                                margin-top: 0px
+                                            .reply-form
+                                                .reply-controls
+                                                    margin-top: 8px
+                                                    .icons
+                                                        flex-grow: 1
+                                                        > .Icon
+                                                            padding: 4px 10px 6px 10px
+                                                            color: $mainColor
+                                                            border-radius: 3px
+                                                            border: 1px solid transparent
+                                                            &:hover
+                                                                border: 1px solid $mainColor
+                                                                background: linear-gradient(to top, #E6F1F6, #F5F8FB)
+
+                                                    .reply-btn
+                                                        color: #fff
+                                                        border-radius: 30px
+                                                        font-size: 14px
+                                                        font-weight: bold
+                                .replies
+                                    padding-top: 0
+                                    .tweet-view
+                                        padding: 9px 40px
+                                        .avatar
+                                            padding-left: 0
+                                            margin-right: 10px
+                                        .content
+                                            padding: 0
+                                            .tweet-body
+                                                .replying-to
+                                                    font-size: 14px
+                                                    color: #657786
+                                                    margin: 5px auto
+
+                    .avatar
+                        margin-top: 5px
+                        padding-right: 0
+                        img
+                            border-radius: 50%
+                            width: 48px
+                            height: 48px
+                            cursor: 
+                    .content
+                        padding-left: 10px
+                        .top
+                            .meta
+                                .name
+                                    font-size: 14px
+                                    font-weight: bold
+                                    color: $darkTxtColor
+                                    &:hover
+                                        color: $mainColor
+                                .Icon--verified
+                                    margin-left: 2px
+                                .handle
+                                    color: #657786
+                                    font-size: 14px
+                                    margin-left: 5px
+                                .date
+                                    font-size: 14px
+                                    &:before
+                                        content: '\00b7'
+                                        margin: auto 5px
+                            .Icon--caretDownLight
+                                cursor: pointer
+                        .tweet-body
+                            .tweet-text
+                                font-size: 14px
+                                margin-bottom: 10px
+                            img, video
+                                display: block
+                                width: 100%
+                        .tweet-controls
+                            margin-top: 10px
+                            margin-bottom: 2px
+                            .control
+                                color: #657786
+                                margin-right: 32px
+                                cursor: pointer
+                                .count
+                                    font-size: 12px
+                                    font-weight: bold
+                                    margin-left: 10px
+                            .comment
+                                &:hover
+                                    color: $mainColor
+                            .rtweet
+                                &:hover
+                                    color: #17bf63
+                            .like
+                                &:hover
+                                    color: #e0245e
+                            .dm
+                                &:hover
+                                    color: $mainColor
+                                    
+
+            .right
+                .row
+                    padding: 0
+                    background: #fff
+                .who-to-follow
+                    .top
+                        padding: 15px
+                        .title
+                            font-weight: bold
+                        .link
+                            a
+                                font-size: 12px
+
+                            &::before
+                                content: '\00b7'
+                                margin: 0 3px 0 6px
+                    .main
+                        margin: 0
+                        overflow-x: hidden
+                        padding: 0 15px 10px 15px
+                        .item
+                            width: 100%
+                            padding: 8px 0
+                            .row
+                                width: 100%
+                                .avatar
+                                    padding-left: 0
+                                    padding-right: 5px
+                                    img
+                                        width: 48px
+                                        height: 48px
+                                .main-col
+                                    padding: 0
+                                    flex-grow: 1
+                                    .meta
+                                        .name
+                                            font-size: 14px
+                                            font-weight: bold
+                                            color: $darkTxtColor
+                                        > .Icon--verified
+                                            margin-left: 3px
+                                        .handle
+                                            overflow-x: hidden
+                                            font-size: 14px
+                                            margin-left: 5px
+                                            max-width: 50px
+                                            color: #657786
+                                    .btn-outline-primary
+                                        font-size: 12px
+                                        font-weight: bold
+                                        border-radius: 30px
+                                        padding: 4px 12px
+                                        margin-top: 5px
+                                        &:hover
+                                            background: rgba(29,161,242, 0.1)
+                                            color: $mainColor
+                                .close-icon
+                                    padding: 0
+                                    color: #ccd6dd
+                                    font-size: 12px
+                                    cursor: pointer
+                    .footer
+                        padding: 15px
+                        .find-email-contacts
+                            .connect-outlock
+                                padding-bottom: 8px
+                                .left-img
+                                    img
+                                        width: 20px
+                                .right
+                                    padding-left: 0
+                                    .title
+                                        font-size: 12px
+                                        font-weight: bold
+                                    .subtitle
+                                        font-size: 11px
+                            .connect-other-addresses
+                                font-size: 12px
+                                margin-top: 12px
+                .page-footer
+                    background: #fff
+                    margin-top: 10px
+                    .footer-menu
+                        list-style: none
+                        padding: 15px
+                        width: 100%
+                        margin-bottom: 0
+                        .menu-item
+                            font-size: 12px
+                            line-height: 20px
+                            color: #657786
+                            padding: 0 9px
+                            a
+                                color: #657786
+                    .adv-link
+                        padding: 15px
+                        .Icon--promotedStroked
+                            color: $mainColor
+                            cursor: pointer
+                        a
+                            margin-left: 10px
+                            font-size: 12px
+
+
+
+
+@media (max-width: 1252px)
+    .root
+        >.row
+            justify-content: center
+            >.right
+                display: none
+
+
+
