@@ -410,6 +410,10 @@ body {
   background: #e6ecf0;
 }
 
+body > .root {
+  margin-top: 43px;
+}
+
 body > .root .row {
   padding-top: 10px;
   max-width: 1190px;
