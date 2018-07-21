@@ -184,6 +184,10 @@ body {
   display: none;
 }
 
+.Icon--close:before {
+  content: "\f045";
+}
+
 .dropdown-item {
   font-size: 14px;
   font-weight: normal;
@@ -408,7 +412,7 @@ body > .root .row {
   margin: auto;
 }
 
-body > .root .row .left, body > .root .row .right {
+body > .root .row .left {
   width: 290px;
 }
 

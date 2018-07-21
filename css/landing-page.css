@@ -184,6 +184,10 @@ body {
   display: none;
 }
 
+.Icon--close:before {
+  content: "\f045";
+}
+
 .dropdown-item {
   font-size: 14px;
   font-weight: normal;
