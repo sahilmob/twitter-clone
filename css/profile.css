@@ -410,12 +410,14 @@ body {
   background: #1da1f2;
 }
 
-body {
-  background: #e6ecf0;
+.header .banner {
+  height: 470px;
+  background: url("../img/google-banner.jpg");
+  background-size: cover;
 }
 
-body > .root {
-  margin-top: 43px;
+body {
+  background: #e6ecf0;
 }
 
 body > .root .row {
