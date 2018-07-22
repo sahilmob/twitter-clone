@@ -649,6 +649,28 @@ body > .root .row .left .followers .title .Icon {
 body > .root .row .left .followers .followers-img img {
   width: 48px;
   height: 48px;
+  margin: 8px 8px 0 0px;
+  cursor: pointer;
+}
+
+body > .root .row .left .media {
+  padding: 0 0 0 15px;
+  margin-top: 16px;
+}
+
+body > .root .row .left .media .title {
+  font-size: 14px;
+}
+
+body > .root .row .left .media .title .Icon {
+  color: #657786;
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+body > .root .row .left .media .media-img img {
+  width: 81px;
+  height: 81px;
   margin: 5px 5px 0 0px;
   cursor: pointer;
 }
