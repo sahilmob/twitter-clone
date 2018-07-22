@@ -180,6 +180,18 @@ body {
   content: "\f149";
 }
 
+.Icon--url:before {
+  content: "\f098";
+}
+
+.Icon--calendar:before {
+  content: "\f203";
+}
+
+.Icon--person:before {
+  content: "\f056";
+}
+
 .home.active .Icon--home,
 .moments.active .Icon--lightning,
 .notifications.active .Icon--notifications {
@@ -572,80 +584,52 @@ body > .root .row .right {
   max-width: 270px;
 }
 
-body > .root .row .left .user_info .top {
-  background: #1da1f2;
-  height: 95px;
-  position: relative;
+body > .root .row .left > .user_info {
+  margin: 45px 0 16px 0;
+  padding: 0 15px;
 }
 
-body > .root .row .left .user_info .top .avatar {
-  position: absolute;
-  bottom: -36px;
-  padding: 1px;
-  margin-left: 8px;
+body > .root .row .left > .user_info .content .user_name {
+  margin-bottom: 12px;
 }
 
-body > .root .row .left .user_info .top .avatar img {
-  width: 72px;
-  height: 72px;
-  border: 4px solid #fff;
-}
-
-body > .root .row .left .user_info .bottom {
-  background: #fff;
-}
-
-body > .root .row .left .user_info .bottom .user_name {
-  margin-left: 90px;
-  margin-top: 5px;
-}
-
-body > .root .row .left .user_info .bottom .user_name a {
-  display: block;
-}
-
-body > .root .row .left .user_info .bottom .user_name a.name {
+body > .root .row .left > .user_info .content .user_name .name {
   color: #14171a;
   font-size: 18px;
   font-weight: bold;
   line-height: 25px;
 }
 
-body > .root .row .left .user_info .bottom .user_name a.handel {
+body > .root .row .left > .user_info .content .user_name .name .Icon--verified {
+  margin-left: 3px;
+}
+
+body > .root .row .left > .user_info .content .user_name a.handel {
   color: #657786;
   font-size: 14px;
   font-weight: normal;
 }
 
-body > .root .row .left .user_info .bottom .stats {
-  padding: 16px;
+body > .root .row .left > .user_info .content .description {
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 
-body > .root .row .left .user_info .bottom .stats .stat {
-  cursor: pointer;
-  margin-right: 35px;
-}
-
-body > .root .row .left .user_info .bottom .stats .stat .title {
-  font-size: 12px;
+body > .root .row .left > .user_info .content .location, body > .root .row .left > .user_info .content .website, body > .root .row .left > .user_info .content .joined {
+  margin-bottom: 8px;
   color: #657786;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  line-height: 16px;
-  overflow: hidden;
-  -webkit-transition: color .2s ease-in-out;
-  transition: color .2s ease-in-out;
+  font-size: 14px;
 }
 
-body > .root .row .left .user_info .bottom .stats .stat .title:hover {
-  color: #1da1f2;
-}
-
-body > .root .row .left .user_info .bottom .stats .stat .count {
+body > .root .row .left > .user_info .content .location .Icon, body > .root .row .left > .user_info .content .website .Icon, body > .root .row .left > .user_info .content .joined .Icon {
   font-size: 18px;
+  margin-right: 5px;
+}
+
+body > .root .row .left > .user_info .content .tweet-to-this {
+  font-size: 14px;
   font-weight: bold;
-  padding-top: 3px;
-  color: #1da1f2;
+  border-radius: 30px;
 }
 
 body > .root .row .left .trends {

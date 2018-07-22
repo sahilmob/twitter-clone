@@ -180,6 +180,18 @@ body {
   content: "\f149";
 }
 
+.Icon--url:before {
+  content: "\f098";
+}
+
+.Icon--calendar:before {
+  content: "\f203";
+}
+
+.Icon--person:before {
+  content: "\f056";
+}
+
 .home.active .Icon--home,
 .moments.active .Icon--lightning,
 .notifications.active .Icon--notifications {

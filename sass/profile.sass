@@ -187,56 +187,38 @@ body
             .right
                 max-width: 270px
             .left
-                .user_info
-                    .top
-                        background: $mainColor
-                        height: 95px
-                        position: relative
-                        .avatar
-                            position: absolute
-                            bottom: -36px
-                            padding: 1px
-                            margin-left: 8px
-                            img
-                                width: 72px
-                                height: 72px
-                                border: 4px solid #fff
-                    .bottom
-                        background: #fff
+                >.user_info
+                    margin: 45px 0 16px 0
+                    padding: 0 15px
+                    .content
                         .user_name
-                            margin-left: 90px
-                            margin-top: 5px
-                            a
-                                display: block
-                            a.name
+                            margin-bottom: 12px
+                            .name
+                                a
                                 color: $darkTxtColor
                                 font-size: 18px
                                 font-weight: bold
                                 line-height: 25px
+                                .Icon--verified
+                                    margin-left: 3px
                             a.handel
                                 color: #657786
                                 font-size: 14px
                                 font-weight: normal
-                        .stats
-                            padding: 16px
-                            .stat
-                                cursor: pointer
-                                margin-right: 35px
-                                .title
-                                    font-size: 12px
-                                    color: #657786
-                                    font-weight: bold
-                                    letter-spacing: 0.02em
-                                    line-height: 16px
-                                    overflow: hidden
-                                    transition: color .2s ease-in-out
-                                    &:hover
-                                        color: $mainColor
-                                .count
-                                    font-size: 18px
-                                    font-weight: bold
-                                    padding-top: 3px
-                                    color: $mainColor
+                        .description
+                            font-size: 14px
+                            margin-bottom: 12px
+                        .location, .website, .joined
+                            margin-bottom: 8px
+                            color: #657786
+                            font-size: 14px
+                            .Icon
+                                font-size: 18px
+                                margin-right: 5px
+                        .tweet-to-this
+                            font-size: 14px
+                            font-weight: bold
+                            border-radius: 30px
                 .trends
                     background: #fff                                 
                     margin-top: 10px
