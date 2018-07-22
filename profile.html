@@ -29,38 +29,48 @@
         </div>
     </nav>
     <div class="header">
-        <div class="banner">
-            <!-- <img src="./img/google-banner.jpg" alt=""> -->
-        </div>
-        <nav class="navbar sticky-top navbar-light bg-light">
-            <div class="col col-left">
-                <img src="./img/google.jpg" alt="">
-            </div>
-            <div class="col col-center d-flex">
-                <div class="tweets-counter menu-item">
-                    <div class="text active">Tweets</div>
-                    <div class="count">86.3K</div>
+        <div class="banner"></div>
+        <nav class="navbar sticky-top navbar-light bg-light justify-content-center">
+            <div class="nav-content d-flex">
+                <div class="col-auto col-left d-flex justify-content-start position-relative">
+                    <img src="./img/google-logo.jpg" alt="" class=" rounded-circle position-absolute">
                 </div>
-                <div class="following menu-item">
-                    <div class="text">Following</div>
-                    <div class="count">219</div>
+                <div class="col-auto col-center d-flex">
+                    <div class="tweets-counter menu-item active">
+                        <div class="text">Tweets</div>
+                        <div class="count">86.3K</div>
+                    </div>
+                    <div class="following menu-item">
+                        <div class="text">Following</div>
+                        <div class="count">219</div>
+                    </div>
+                    <div class="followers menu-item">
+                        <div class="text">Followers</div>
+                        <div class="count">20.2M</div>
+                    </div>
+                    <div class="likes menu-item">
+                        <div class="text">Likes</div>
+                        <div class="count">1,0272</div>
+                    </div>
+                    <div class="Moments menu-item">
+                        <div class="text">Moments</div>
+                        <div class="count">24</div>
+                    </div>
                 </div>
-                <div class="followers menu-item">
-                    <div class="text">Followers</div>
-                    <div class="count">20.2M</div>
+                <div class="col-auto col-right d-flex justify-content-end align-items-center">
+                    <button class="btn btn-outline-primary">Follow</button>
+                    <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--medium" id="moreUserActions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="More user actions"></span>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="moreUserActions">
+                        <a class="dropdown-item" href="#">Tweet to @Google</a>
+                        <a class="dropdown-item" href="#">Add or remove from lists...</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Mute @Google</a>
+                        <a class="dropdown-item" href="#">Block @Google</a>
+                        <a class="dropdown-item" href="#">Report @Google</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Embed this Profile</a>
+                    </div>
                 </div>
-                <div class="likes menu-item">
-                    <div class="text">Likes</div>
-                    <div class="count">1,0272</div>
-                </div>
-                <div class="Moments menu-item">
-                    <div class="text">Moments</div>
-                    <div class="count">24</div>
-                </div>
-            </div>
-            <div class="col col-right">
-                <button class="btn btn-outline-primary">Follow</button>
-                <span class="user-dropdown-icon Icon Icon--dotsVertical Icon--medium"></span>
             </div>
         </nav>
     </div>

@@ -88,8 +88,60 @@
         height: 470px
         background: url('../img/google-banner.jpg')
         background-size: cover
-
-
+    .navbar
+        max-height: 60px !important
+        height: 60px
+        .nav-content
+            width: 1190
+            >.col-auto
+                padding: 0
+            .col-left, .col-right
+                width: 290px
+            .col-center
+                max-width: 610px
+                width: 610px
+                padding-left: 10px
+                .menu-item
+                    color: #66757f
+                    padding: 14px 15px 7px 15px
+                    box-sizing: border-box
+                    border-bottom: 0px solid transparent
+                    cursor: pointer
+                    height: 60px
+                    transition: all 0.2s ease-in-out
+                    &:hover
+                        border-bottom: 2px solid $mainColor
+                        .count
+                            color: $mainColor
+                    .text
+                        font-size: 12px
+                        text-align: center
+                        font-weight: bold
+                    .count
+                        font-size: 18px
+                        font-weight: bold
+                        text-align: center
+                .active
+                    border-bottom: 2px solid $mainColor
+                    .count
+                        color: $mainColor
+            .col-left
+                img
+                    width: 210px
+                    height: 210px
+                    top: -125px
+            .col-right
+                .btn
+                    font-size: 14px
+                    min-width: 105px
+                    font-weight: bold
+                    border-radius: 30px
+                    margin-right: 20px
+                    &:hover
+                        background: rgba(29,161,242, 0.1)
+                        color: $mainColor
+                .user-dropdown-icon
+                    cursor: pointer
 
 body
     background: #e6ecf0

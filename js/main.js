@@ -1,6 +1,6 @@
 $(function() {
     //Apply tooltip for each element with data-toggle attr. = tooltip
-    $('[data-toggle="tooltip"], #tweetMoreBtn').tooltip({
+    $('[data-toggle="tooltip"], #tweetMoreBtn, #moreUserActions').tooltip({
         delay: {
             show: 200,
             hide: 0
