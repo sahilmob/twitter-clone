@@ -12,14 +12,15 @@
     background: #fff
     .root
         .left
-            height: 43px
+            height: 46px
             .nav-item
                 box-sizing: border-box
                 border-bottom: 1px solid $mainColor
                 padding-left: 4px
                 padding-right: 14px
                 color: $mainMenuLink
-                transition: all .15s ease-in-out
+                transition: all .1s ease-in-out
+                height: 100%
                 &:hover
                     text-decoration: none
                     border-bottom: 2px solid $mainColor
@@ -101,14 +102,14 @@ body
         top: 59px
         .nav-content
             width: 1190
-            >.col-auto
+            .col-auto
                 padding: 0
             .col-left, .col-right
                 width: 290px
             .col-center
-                max-width: 610px
-                width: 610px
-                padding-left: 10px
+                max-width: 590px
+                width: 590px
+                margin: 0 10px
                 .menu-item
                     color: #66757f
                     padding: 14px 15px 7px 15px
@@ -182,10 +183,8 @@ body
             padding-top: 10px
             max-width: 1190px
             margin: auto
-            .left
+            .left, .right
                 width: 290px
-            .right
-                max-width: 270px
             .left
                 >.user_info
                     margin: 45px 0 16px 0
@@ -231,7 +230,7 @@ body
                         img
                             width: 48px
                             height: 48px
-                            margin: 8px 8px 0 0px
+                            margin: 8px 6px 0 0px
                             cursor: pointer
                 .media
                     padding: 0 0 0 15px
@@ -252,7 +251,7 @@ body
                 flex-grow: 1
                 background: #fff
                 margin: 0 10px
-                max-width: 610px
+                max-width: 590px
                 .main-head
                     a, span
                         padding: 15px 15px 12px 15px
@@ -412,7 +411,7 @@ body
 
                     .avatar
                         margin-top: 5px
-                        padding-right: 0
+                        padding: 0
                         img
                             border-radius: 50%
                             width: 48px
@@ -518,7 +517,7 @@ body
                                             overflow-x: hidden
                                             font-size: 14px
                                             margin-left: 5px
-                                            max-width: 50px
+                                            max-width: 55px
                                             color: #657786
                                     .btn-outline-primary
                                         font-size: 12px
@@ -526,6 +525,7 @@ body
                                         border-radius: 30px
                                         padding: 4px 12px
                                         margin-top: 5px
+                                        min-width: 89px
                                         &:hover
                                             background: rgba(29,161,242, 0.1)
                                             color: $mainColor
@@ -538,21 +538,24 @@ body
                     .footer
                         padding: 15px
                         .find-email-contacts
-                            .connect-outlock
+                            .connect-outlook
                                 padding-bottom: 8px
                                 .left-img
                                     img
                                         width: 20px
                                 .right
-                                    padding-left: 0
+                                    max-width: 200px
+                                    padding: 0
                                     .title
                                         font-size: 12px
                                         font-weight: bold
+                                        
                                     .subtitle
                                         font-size: 11px
                             .connect-other-addresses
                                 font-size: 12px
                                 margin-top: 12px
+                                max-width: 250px
                 
                 .trends
                     background: #fff                                 

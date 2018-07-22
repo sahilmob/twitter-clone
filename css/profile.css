@@ -324,7 +324,7 @@ body {
 }
 
 .navbar .root .left {
-  height: 43px;
+  height: 46px;
 }
 
 .navbar .root .left .nav-item {
@@ -334,8 +334,9 @@ body {
   padding-left: 4px;
   padding-right: 14px;
   color: #66757f;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  height: 100%;
 }
 
 .navbar .root .left .nav-item:hover {
@@ -446,7 +447,7 @@ body > .navbar-secondary .nav-content {
   width: 1190;
 }
 
-body > .navbar-secondary .nav-content > .col-auto {
+body > .navbar-secondary .nav-content .col-auto {
   padding: 0;
 }
 
@@ -455,9 +456,9 @@ body > .navbar-secondary .nav-content .col-left, body > .navbar-secondary .nav-c
 }
 
 body > .navbar-secondary .nav-content .col-center {
-  max-width: 610px;
-  width: 610px;
-  padding-left: 10px;
+  max-width: 590px;
+  width: 590px;
+  margin: 0 10px;
 }
 
 body > .navbar-secondary .nav-content .col-center .menu-item {
@@ -576,12 +577,8 @@ body > .root .row {
   margin: auto;
 }
 
-body > .root .row .left {
+body > .root .row .left, body > .root .row .right {
   width: 290px;
-}
-
-body > .root .row .right {
-  max-width: 270px;
 }
 
 body > .root .row .left > .user_info {
@@ -649,7 +646,7 @@ body > .root .row .left .followers .title .Icon {
 body > .root .row .left .followers .followers-img img {
   width: 48px;
   height: 48px;
-  margin: 8px 8px 0 0px;
+  margin: 8px 6px 0 0px;
   cursor: pointer;
 }
 
@@ -681,7 +678,7 @@ body > .root .row .main {
           flex-grow: 1;
   background: #fff;
   margin: 0 10px;
-  max-width: 610px;
+  max-width: 590px;
 }
 
 body > .root .row .main .main-head a, body > .root .row .main .main-head span {
@@ -929,7 +926,7 @@ body > .root .row .main .tweet-view > .tweet-modal .modal-dialog .modal-content 
 
 body > .root .row .main .tweet-view .avatar {
   margin-top: 5px;
-  padding-right: 0;
+  padding: 0;
 }
 
 body > .root .row .main .tweet-view .avatar img {
@@ -1086,7 +1083,7 @@ body > .root .row .right .who-to-follow .main .item .row .main-col .meta .handle
   overflow-x: hidden;
   font-size: 14px;
   margin-left: 5px;
-  max-width: 50px;
+  max-width: 55px;
   color: #657786;
 }
 
@@ -1096,6 +1093,7 @@ body > .root .row .right .who-to-follow .main .item .row .main-col .btn-outline-
   border-radius: 30px;
   padding: 4px 12px;
   margin-top: 5px;
+  min-width: 89px;
 }
 
 body > .root .row .right .who-to-follow .main .item .row .main-col .btn-outline-primary:hover {
@@ -1114,30 +1112,32 @@ body > .root .row .right .who-to-follow .footer {
   padding: 15px;
 }
 
-body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock {
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlook {
   padding-bottom: 8px;
 }
 
-body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .left-img img {
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlook .left-img img {
   width: 20px;
 }
 
-body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right {
-  padding-left: 0;
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlook .right {
+  max-width: 200px;
+  padding: 0;
 }
 
-body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right .title {
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlook .right .title {
   font-size: 12px;
   font-weight: bold;
 }
 
-body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right .subtitle {
+body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlook .right .subtitle {
   font-size: 11px;
 }
 
 body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-other-addresses {
   font-size: 12px;
   margin-top: 12px;
+  max-width: 250px;
 }
 
 body > .root .row .right .trends {
