@@ -219,50 +219,7 @@ body
                             font-size: 14px
                             font-weight: bold
                             border-radius: 30px
-                .trends
-                    background: #fff                                 
-                    margin-top: 10px
-                    padding: 15px
-                    > .title
-                        font-size: 18px
-                        font-weight: bold
-                        color: $darkTxtColor
-                        .change-trends
-                            font-size: 12px
-                            font-weight: normal
-                            position: relative
-                            margin-left: 10px
-                            &::before
-                                content: ''
-                                display: inline-block
-                                position: absolute
-                                width: 2px
-                                height: 2px
-                                background: $darkTxtColor
-                                border-radius: 100px
-                                top: 9px
-                                left: -8px
-                                opacity: 0.5
-                .hashtags
-                    list-style-type: none
-                    padding-left: 0
-                    margin-top: 5px
-                    .hashtag
-                        margin-bottom: 10px
-                        cursor: pointer
-                        &:hover
-                            .title
-                                text-decoration: underline
-                        .title
-                            font-size: 14px
-                            font-weight: bold
-                            color: $mainColor
-                        .count
-                            font-size: 12px
-                            font-weight: 400
-                            color: $mainMenuLink
-                            &:hover
-                                text-decoration: none
+
             .main
                 flex-grow: 1
                 background: #fff
@@ -581,6 +538,7 @@ body
                                     color: #ccd6dd
                                     font-size: 12px
                                     cursor: pointer
+
                     .footer
                         padding: 15px
                         .find-email-contacts
@@ -599,12 +557,56 @@ body
                             .connect-other-addresses
                                 font-size: 12px
                                 margin-top: 12px
-                .page-footer
-                    background: #fff
+                
+                .trends
+                    background: #fff                                 
                     margin-top: 10px
+                    padding: 15px
+                    > .title
+                        font-size: 18px
+                        font-weight: bold
+                        color: $darkTxtColor
+                        .change-trends
+                            font-size: 12px
+                            font-weight: normal
+                            position: relative
+                            margin-left: 10px
+                            &::before
+                                content: ''
+                                display: inline-block
+                                position: absolute
+                                width: 2px
+                                height: 2px
+                                background: $darkTxtColor
+                                border-radius: 100px
+                                top: 9px
+                                left: -8px
+                                opacity: 0.5
+                .hashtags
+                    list-style-type: none
+                    padding-left: 0
+                    margin-top: 5px
+                    .hashtag
+                        margin-bottom: 10px
+                        cursor: pointer
+                        &:hover
+                            .title
+                                text-decoration: underline
+                        .title
+                            font-size: 14px
+                            font-weight: bold
+                            color: $mainColor
+                        .count
+                            font-size: 12px
+                            font-weight: 400
+                            color: $mainMenuLink
+                            &:hover
+                                text-decoration: none
+            
+                .page-footer
                     .footer-menu
                         list-style: none
-                        padding: 15px
+                        padding: 15px 15px 15px 6px
                         width: 100%
                         margin-bottom: 0
                         .menu-item
