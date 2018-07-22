@@ -23,3 +23,14 @@ $(function() {
         delay: 200
     })
 })
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var navOffset = $('.navbar-secondary').offset().top
+        if (navOffset <= 470) {
+            $(".banner").addClass('bannerSticky')
+        } else {
+            $(".banner").removeClass('removeClass')
+        }
+    })
+})

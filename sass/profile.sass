@@ -83,14 +83,21 @@
                 &:hover
                     background: $mainColor
 
-.header
-    .banner
+
+body
+    >.banner
         height: 470px
         background: url('../img/google-banner.jpg')
         background-size: cover
-    .navbar
+    .bannerSticky
+        position: sticky
+        z-index: 1000
+        top: -411px
+
+    >.navbar-secondary 
         max-height: 60px !important
         height: 60px
+        top: 59px
         .nav-content
             width: 1190
             >.col-auto
