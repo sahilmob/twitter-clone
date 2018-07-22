@@ -334,8 +334,8 @@ body {
   padding-left: 4px;
   padding-right: 14px;
   color: #66757f;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .navbar .root .left .nav-item:hover {
@@ -436,12 +436,8 @@ body > .root .row {
   margin: auto;
 }
 
-body > .root .row .left {
+body > .root .row .left, body > .root .row .right {
   width: 290px;
-}
-
-body > .root .row .right {
-  max-width: 270px;
 }
 
 body > .root .row .left .user_info .top {
@@ -589,7 +585,7 @@ body > .root .row .main {
           flex-grow: 1;
   background: #fff;
   margin: 0 10px;
-  max-width: 610px;
+  max-width: 590px;
 }
 
 body > .root .row .main .tweet-input {
@@ -1097,6 +1093,7 @@ body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-ou
 }
 
 body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-outlock .right {
+  max-width: 200px;
   padding-left: 0;
 }
 
@@ -1112,6 +1109,7 @@ body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-ou
 body > .root .row .right .who-to-follow .footer .find-email-contacts .connect-other-addresses {
   font-size: 12px;
   margin-top: 12px;
+  max-width: 250px;
 }
 
 body > .root .row .right .page-footer {

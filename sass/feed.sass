@@ -19,7 +19,7 @@
                 padding-left: 4px
                 padding-right: 14px
                 color: $mainMenuLink
-                transition: all .15s ease-in-out
+                transition: all .1s ease-in-out
                 &:hover
                     text-decoration: none
                     border-bottom: 2px solid $mainColor
@@ -91,10 +91,8 @@ body
             padding-top: 10px
             max-width: 1190px
             margin: auto
-            .left
+            .left, .right
                 width: 290px
-            .right
-                max-width: 270px
             .left
                 .user_info
                     .top
@@ -194,7 +192,7 @@ body
                 flex-grow: 1
                 background: #fff
                 margin: 0 10px
-                max-width: 610px
+                max-width: 590px
                 .tweet-input
                     background: #E8F5FD
                     border-bottom: 1px solid $sectionBorder
@@ -517,6 +515,7 @@ body
                                     img
                                         width: 20px
                                 .right
+                                    max-width: 200px
                                     padding-left: 0
                                     .title
                                         font-size: 12px
@@ -526,6 +525,7 @@ body
                             .connect-other-addresses
                                 font-size: 12px
                                 margin-top: 12px
+                                max-width: 250px
                 .page-footer
                     background: #fff
                     margin-top: 10px
