@@ -94,7 +94,8 @@ body
         z-index: 1000
         top: -411px
 
-    >.navbar-secondary 
+    >.navbar-secondary
+        background: #fff !important
         max-height: 60px !important
         height: 60px
         top: 59px
@@ -133,10 +134,34 @@ body
                     .count
                         color: $mainColor
             .col-left
-                img
+                >img
                     width: 210px
                     height: 210px
                     top: -125px
+                    transition: top 0.3s ease
+                .hide
+                    top: -230px
+                .logo-small-container
+                    overflow: hidden
+                    width: 100%
+                    .google-logo-small
+                        top: 235px
+                        transition: top 0.3s ease
+                        img
+                            width: 36px
+                            height: 36px
+                        .meta
+                            margin-left: 10px
+                            .title
+                                color: #14171a
+                                font-weight: bold
+                            .Icon--verified
+                                margin-left: 3px
+                            .handle
+                                font-size: 14px
+                    .show
+                        top: 10px
+                        
             .col-right
                 .btn
                     font-size: 14px

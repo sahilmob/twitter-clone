@@ -27,10 +27,15 @@ $(function() {
 $(document).ready(function() {
     $(window).scroll(function() {
         var navOffset = $('.navbar-secondary').offset().top
-        if (navOffset <= 470) {
+        console.log(navOffset)
+        if (navOffset > 470.1) {
             $(".banner").addClass('bannerSticky')
+            $(".google-logo").addClass('hide')
+            $(".google-logo-small").addClass('show')
         } else {
             $(".banner").removeClass('removeClass')
+            $(".google-logo").removeClass('hide')
+            $(".google-logo-small").removeClass('show')
         }
     })
 })

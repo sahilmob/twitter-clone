@@ -424,6 +424,7 @@ body .bannerSticky {
 }
 
 body > .navbar-secondary {
+  background: #fff !important;
   max-height: 60px !important;
   height: 60px;
   top: 59px;
@@ -487,10 +488,53 @@ body > .navbar-secondary .nav-content .col-center .active .count {
   color: #1da1f2;
 }
 
-body > .navbar-secondary .nav-content .col-left img {
+body > .navbar-secondary .nav-content .col-left > img {
   width: 210px;
   height: 210px;
   top: -125px;
+  -webkit-transition: top 0.3s ease;
+  transition: top 0.3s ease;
+}
+
+body > .navbar-secondary .nav-content .col-left .hide {
+  top: -230px;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .google-logo-small {
+  top: 235px;
+  -webkit-transition: top 0.3s ease;
+  transition: top 0.3s ease;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .google-logo-small img {
+  width: 36px;
+  height: 36px;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .google-logo-small .meta {
+  margin-left: 10px;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .google-logo-small .meta .title {
+  color: #14171a;
+  font-weight: bold;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .google-logo-small .meta .Icon--verified {
+  margin-left: 3px;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .google-logo-small .meta .handle {
+  font-size: 14px;
+}
+
+body > .navbar-secondary .nav-content .col-left .logo-small-container .show {
+  top: 10px;
 }
 
 body > .navbar-secondary .nav-content .col-right .btn {
