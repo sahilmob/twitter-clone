@@ -176,6 +176,10 @@ body {
   content: "\f504";
 }
 
+.Icon--dotsVertical:before {
+  content: "\f149";
+}
+
 .home.active .Icon--home,
 .moments.active .Icon--lightning,
 .notifications.active .Icon--notifications {
